@@ -1,62 +1,221 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maneiras de Estudo</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Maneiras Eficientes de Estudar</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-<header class="hero">
-    <img src="img/capa-estudo.jpg" alt="Capa de estudo" class="hero-img">
-    <div class="hero-text">
-        <h1>Maneiras Eficazes de Estudo</h1>
-        <p>Aprenda como estudar melhor com foco, método e motivação!</p>
+    <!-- ==================== PÁGINA INICIAL (ÍNDICE) ==================== -->
+    <div id="pagina-index" class="pagina ativa">
+        <header>
+            <h1>Maneiras Eficientes de Estudar</h1>
+            <p>Bem-vindo ao site sobre técnicas de estudo comprovadas para melhorar seu aprendizado.</p>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#" data-target="pomodoro">Técnica Pomodoro</a></li>
+                <li><a href="#" data-target="repeticao">Repetição Espaçada</a></li>
+                <li><a href="#" data-target="recuperacao">Recuperação Ativa</a></li>
+                <li><a href="#" data-target="feynman">Técnica Feynman</a></li>
+                <li><a href="#" data-target="mapas">Mapas Mentais</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Introdução</h2>
+                <p>Este site apresenta várias maneiras de estudar que podem ajudar estudantes de todas as idades a otimizar seu tempo e retenção de conhecimento. Clique em uma técnica no menu acima para saber mais.</p>
+            </section>
+        </main>
     </div>
-</header>
 
-<nav>
-    <a href="#videos">🎥 Vídeos</a>
-    <a href="#planilhas">📊 Planilhas</a>
-    <a href="#sites">🌐 Sites Recomendados</a>
-</nav>
+    <!-- ==================== TÉCNICA POMODORO ==================== -->
+    <div id="pagina-pomodoro" class="pagina">
+        <header>
+            <h1>Técnica Pomodoro</h1>
+            <a href="#" data-target="index">← Voltar ao Índice</a>
+        </header>
 
-<main>
-    <section id="videos" class="card">
-        <h2>📽️ Vídeos para Estudar Melhor</h2>
-        <p>Assista a vídeos que vão mudar a forma como você aprende:</p>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=Jv3dJH3Go9M" target="_blank">Técnicas de Estudo para Alta Performance</a></li>
-            <li><a href="https://www.youtube.com/watch?v=7nF5Pngl7L0" target="_blank">Como Organizar seu Tempo de Estudo</a></li>
-            <li><a href="https://www.youtube.com/watch?v=QU4v1q4n8lQ" target="_blank">Como Aumentar a Memória e Concentração</a></li>
-        </ul>
-    </section>
+        <main>
+            <section>
+                <h2>O que é?</h2>
+                <p>A Técnica Pomodoro é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo. Consiste em dividir o trabalho em intervalos de 25 minutos, chamados "pomodoros", separados por pausas curtas.</p>
+            </section>
+            <section>
+                <h2>Como aplicar?</h2>
+                <ol>
+                    <li>Escolha uma tarefa.</li>
+                    <li>Ajuste um timer para 25 minutos.</li>
+                    <li>Trabalhe até o timer tocar.</li>
+                    <li>Faça uma pausa de 5 minutos.</li>
+                    <li>Após 4 pomodoros, faça uma pausa mais longa (15-30 minutos).</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Benefícios</h2>
+                <ul>
+                    <li>Melhora a concentração.</li>
+                    <li>Reduz a procrastinação.</li>
+                    <li>Aumenta a produtividade.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
 
-    <section id="planilhas" class="card">
-        <h2>📅 Planilhas de Estudo</h2>
-        <p>Baixe e use essas planilhas para organizar sua rotina de aprendizado:</p>
-        <ul>
-            <li><a href="https://docs.google.com/spreadsheets/d/1kTnFPlanilhaExemplo" target="_blank">Planilha de Estudo Diária</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1kTnFPlanilhaSemanal" target="_blank">Planejamento Semanal</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/1kTnFPlanilhaTarefas" target="_blank">Controle de Tarefas</a></li>
-        </ul>
-    </section>
+    <!-- ==================== REPETIÇÃO ESPAÇADA ==================== -->
+    <div id="pagina-repeticao" class="pagina">
+        <header>
+            <h1>Repetição Espaçada</h1>
+            <a href="#" data-target="index">← Voltar ao Índice</a>
+        </header>
 
-    <section id="sites" class="card">
-        <h2>🌍 Melhores Sites para Estudo</h2>
-        <p>Explore esses sites que oferecem conteúdos de qualidade:</p>
-        <ul>
-            <li><a href="https://www.khanacademy.org" target="_blank">Khan Academy</a> — Aulas gratuitas em diversas áreas.</li>
-            <li><a href="https://www.coursera.org" target="_blank">Coursera</a> — Cursos online de universidades renomadas.</li>
-            <li><a href="https://www.edx.org" target="_blank">edX</a> — Cursos gratuitos e certificados internacionais.</li>
-        </ul>
-    </section>
-</main>
+        <main>
+            <section>
+                <h2>O que é?</h2>
+                <p>A repetição espaçada é uma técnica de aprendizado que envolve revisar o material em intervalos crescentes para melhorar a retenção a longo prazo.</p>
+            </section>
+            <section>
+                <h2>Como aplicar?</h2>
+                <ol>
+                    <li>Estude o material inicial.</li>
+                    <li>Revise após 1 dia.</li>
+                    <li>Revise novamente após 3 dias.</li>
+                    <li>Aumente os intervalos progressivamente (ex: 1 semana, 1 mês).</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Benefícios</h2>
+                <ul>
+                    <li>Melhora a memória de longo prazo.</li>
+                    <li>Economiza tempo ao focar no que precisa ser revisto.</li>
+                    <li>Usado em apps como Anki.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
 
-<footer>
-    <p>&copy; 2025 Maneiras de Estudo 💙💗 | Feito com dedicação e foco nos seus estudos!</p>
-</footer>
+    <!-- ==================== RECUPERAÇÃO ATIVA ==================== -->
+    <div id="pagina-recuperacao" class="pagina">
+        <header>
+            <h1>Recuperação Ativa</h1>
+            <a href="#" data-target="index">← Voltar ao Índice</a>
+        </header>
 
+        <main>
+            <section>
+                <h2>O que é?</h2>
+                <p>A recuperação ativa envolve testar-se ativamente sobre o material, em vez de apenas reler, para fortalecer a memória.</p>
+            </section>
+            <section>
+                <h2>Como aplicar?</h2>
+                <ol>
+                    <li>Leia o material.</li>
+                    <li>Feche o livro e tente recordar o conteúdo.</li>
+                    <li>Responda perguntas ou faça flashcards.</li>
+                    <li>Verifique erros e corrija.</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Benefícios</h2>
+                <ul>
+                    <li>Aumenta a retenção.</li>
+                    <li>Identifica lacunas no conhecimento.</li>
+                    <li>Mais eficaz que releitura passiva.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- ==================== TÉCNICA FEYNMAN ==================== -->
+    <div id="pagina-feynman" class="pagina">
+        <header>
+            <h1>Técnica Feynman</h1>
+            <a href="#" data-target="index">← Voltar ao Índice</a>
+        </header>
+
+        <main>
+            <section>
+                <h2>O que é?</h2>
+                <p>A Técnica Feynman, nomeada em homenagem ao físico Richard Feynman, envolve explicar um conceito de forma simples, como se estivesse ensinando a uma criança.</p>
+            </section>
+            <section>
+                <h2>Como aplicar?</h2>
+                <ol>
+                    <li>Escolha um tópico.</li>
+                    <li>Explique-o em termos simples.</li>
+                    <li>Identifique partes confusas e estude mais.</li>
+                    <li>Simplifique analogias e exemplos.</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Benefícios</h2>
+                <ul>
+                    <li>Revela compreensão real.</li>
+                    <li>Torna o aprendizado divertido.</li>
+                    <li>Ajuda em tópicos complexos.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- ==================== MAPAS MENTAIS ==================== -->
+    <div id="pagina-mapas" class="pagina">
+        <header>
+            <h1>Mapas Mentais</h1>
+            <a href="#" data-target="index">← Voltar ao Índice</a>
+        </header>
+
+        <main>
+            <section>
+                <h2>O que é?</h2>
+                <p>Mapas mentais são diagramas que representam ideias, tarefas ou conceitos ramificando de um tema central, ajudando na organização visual.</p>
+            </section>
+            <section>
+                <h2>Como aplicar?</h2>
+                <ol>
+                    <li>Coloque o tema central no meio.</li>
+                    <li>Adicione ramos para subtópicos.</li>
+                    <li>Use cores, imagens e palavras-chave.</li>
+                    <li>Conecte ideias relacionadas.</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Benefícios</h2>
+                <ul>
+                    <li>Facilita a visão geral.</li>
+                    <li>Estimula a criatividade.</li>
+                    <li>Melhora a memorização visual.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- ==================== RODAPÉ ==================== -->
+    <footer>
+        <p>© 2025 - Site sobre Maneiras de Estudar. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- ==================== SCRIPT DE NAVEGAÇÃO ==================== -->
+    <script>
+        // Mostra/oculta páginas
+        const links = document.querySelectorAll('a[data-target]');
+        links.forEach(link => {
+            link.addEventListener('click', e => {
+                e.preventDefault();
+                const target = link.getAttribute('data-target');
+
+                document.querySelectorAll('.pagina').forEach(p => p.classList.remove('ativa'));
+                if (target === 'index') {
+                    document.getElementById('pagina-index').classList.add('ativa');
+                } else {
+                    document.getElementById(`pagina-${target}`).classList.add('ativa');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
